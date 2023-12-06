@@ -1,0 +1,25 @@
+ul {
+  padding-top: 0px;
+  padding-left: 20px;
+  text-decoration: none!important;
+  text-align: right;
+}
+
+li:nth-child(-n+2){
+  float: left;
+  padding: 0px;
+  padding-top: 2px;
+}
+
+li {
+  display: inline-block;
+  padding: 8px;
+  border-right: 1px;
+  text-align: center;
+  text-decoration: none!important;
+}
+
+#logo{
+  color: #d4374a;
+  font-weight: bold;
+}
