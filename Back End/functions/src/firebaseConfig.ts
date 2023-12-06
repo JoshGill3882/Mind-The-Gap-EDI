@@ -3,12 +3,12 @@ import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDBRMmbmVLOBC-HYRSTwgND9-gLiJNw-Fo",
-    authDomain: "edi-card-game.firebaseapp.com",
-    projectId: "edi-card-game",
-    storageBucket: "edi-card-game.appspot.com",
-    messagingSenderId: "583613257711",
-    appId: "1:583613257711:web:07d1d55d7a8ba10849481a"
+    apiKey: "API_KEY",
+    authDomain: "DOMAIN",
+    projectId: "ID",
+    storageBucket: "BUCKET",
+    messagingSenderId: "SENDERID",
+    appId: "APP_ID"
 };
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
